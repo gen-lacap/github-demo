@@ -1,0 +1,18 @@
+git init
+git status
+git log
+git add <filename>
+git commit -m <"message"> #presentTense
+git commit -a -m "message" 
+git branch --show branches
+git branch <branch> --create branch
+git switch <branch-name> --switch to branch
+git switch -c <branch-name> --create a branch and switch to it
+git branch -D <branch-name>
+git branch -m "renamed-branch> --rename branch
+
+
+git merge <branch-name>
+git reset --hard <head> #to undo from prev commit
+git merge ABBA
+
