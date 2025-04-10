@@ -15,4 +15,10 @@ git branch -m "renamed-branch> --rename branch
 git merge <branch-name>
 git reset --hard <head> #to undo from prev commit
 git merge ABBA
+git diff #shows unstaged changes
 
+git diff HEAD #shows staged and unstaged since HEAD changes
+git diff --staged #shows only staged changes
+
+git diff branch1..branch2
+git diff commit1..commit2
