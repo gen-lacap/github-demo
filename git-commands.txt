@@ -22,3 +22,12 @@ git diff --staged #shows only staged changes
 
 git diff branch1..branch2
 git diff commit1..commit2
+git diff HEAD HEAD~1 #reference HEAD's parent commit
+
+git stash
+git stash pop #apply whatever in the stash and then remove it from stash.
+git stash apply #apply whatever is stash away, w/o removing it from the stash.
+git stash apply stash@{0}
+git stash list
+git stash drop stash@{0}
+git stash clear
