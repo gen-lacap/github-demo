@@ -33,3 +33,16 @@ git stash drop stash@{0}
 git stash clear
 
 git checkout <commit-hash>
+git checkout HEAD~1
+git switch - #will go back to the last branch
+
+git checkout HEAD <filename> #discard changes, reverting back to the HEAD
+git checkout -- <filename> #same as above
+git restore <filename>
+git restore --source HEAD~1 <filename>
+
+git restore --staged <filename>
+
+git reset --hard <commit-hash>
+git reset #will undo but the changes is still in Working directory
+git revert #will undo commit but it will have a new commit about the undo
