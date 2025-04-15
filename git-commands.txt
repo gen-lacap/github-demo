@@ -46,3 +46,19 @@ git restore --staged <filename>
 git reset --hard <commit-hash>
 git reset #will undo but the changes is still in Working directory
 git revert #will undo commit but it will have a new commit about the undo
+
+git remote -v
+git remote rename <old> <new>
+git remote remove <name>
+
+git remote add <name> <url> #Adding A New Remote
+
+git push <remote> <branch>
+git branch -r
+git checkout
+
+git fetch <remote> 
+git fetch <remote> <branch>
+
+git pull <remote> <branch>
+git pull
